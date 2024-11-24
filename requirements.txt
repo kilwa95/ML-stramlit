@@ -4,4 +4,6 @@ numpy
 plotly
 pillow
 scikit-learn>=1.0.0
+matplotlib
+seaborn
 mysql-connector-python==8.0.33

@@ -7,7 +7,7 @@ def render_sidebar():
         
         selected = st.radio(
             "Navigation",
-            ["Accueil", "Données", "Analyses", "Images", "Vidéos", "Widgets", "Formulaires", "Machine Learning", "Thème"]
+            ["Accueil","LogisticRegression","KNN","DecisionTreeClassifier"]
         )
         
     return selected 
