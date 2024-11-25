@@ -7,7 +7,7 @@ def render_sidebar():
         
         selected = st.radio(
             "Navigation",
-            ["Accueil","LogisticRegression","KNN","DecisionTreeClassifier"]
+            ["Accueil","LogisticRegression","KNN","DecisionTreeClassifier","ParallelLearning","SequentialLearning","RandomForestClassifier","BaggingClassifier","AdaBoostClassifier"]
         )
         
     return selected 
